@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+}
+header img{
+    width: 100%;
+}
+
+.ourLocation ul dl dt{
+    list-style-type: disc;
+}
+.ourStudent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: auto;
+    height: 50vh;
+}
+.ourStudent .right{
+    background: rgb(0, 0, 84);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.ourStudent .right a{
+    color: red;
+}
+
+.ourStudent .left{
+    width: 40%;
+    height: 100%;
+}
+.ourStudent .left img{
+    object-fit: scale-down;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+}
